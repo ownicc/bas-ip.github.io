@@ -26,6 +26,7 @@
 /* .article__image {
 } */
 .article__box {
+  width: 100%;
   background: $white;
 }
 
@@ -46,5 +47,5 @@
 }
 .article__text {
   margin: 0;
-  font-size: 0.8125rem;
+  font-size: 1rem;
 }

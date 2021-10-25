@@ -15,7 +15,7 @@
 }
 .banner__body {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   width: 45%;
   grid-column: 1;
@@ -29,19 +29,19 @@
 
 .banner__title {
   margin: 0;
-  margin-bottom: clamp(1rem, 2.604vw, 3rem);
-  @include interpolate(line-height, 20rem, 120rem, 1.2rem, 3.625rem);
-  @include interpolate(font-size, 20rem, 120rem, 1.1428rem, 2.625rem);
+  @include interpolate(line-height, 20rem, 120rem, 3rem, 3.625rem);
+  @include interpolate(font-size, 20rem, 120rem, 2rem, 2.625rem);
+  margin-bottom: 1rem;
 }
 
 .banner__list {
-  list-style: url(/img/circle-list.svg) inside;
+  list-style: url(/img/dest/circle-list.svg) inside;
 }
 
 .banner__list-item {
-  line-height: clamp(1.2rem, 2vw, 1.75rem);
-  @include interpolate(font-size, 20rem, 120rem, 1rem, 1.5rem);
+  line-height: 1.75rem;
+  @include interpolate(font-size, 20rem, 120rem, 2rem, 1rem);
   &:not(:last-child) {
-    margin-bottom: clamp(0.3125rem, 1vw, 2rem);
+    margin-bottom: clamp(1.5125rem, 1vw, 2rem);
   }
 }

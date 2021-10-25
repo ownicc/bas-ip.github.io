@@ -1,0 +1,80 @@
+.footer-title {
+  font-size: 1.5rem;
+}
+
+.footer {
+  &__top {
+    padding: 3.125rem 0;
+    background: $light-grey;
+  }
+
+  &__bottom {
+    background: $dark-grey;
+  }
+}
+
+.top {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.goods {
+  &__list-item {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.buyer {
+  &__list-item {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.apps {
+  &__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
+
+.contacts {
+  &__number {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+  }
+
+  &__text {
+    margin: 0;
+  }
+
+  &__button {
+    padding: 1rem 2.1rem;
+    margin-top: 1.875rem;
+  }
+}
+
+.bottom {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 2.5rem;
+  }
+
+  &__copyright {
+    color: $white;
+    font-size: 0.8125rem;
+  }
+
+  &__privacy {
+    color: $white;
+    font-size: 0.8125rem;
+  }
+}

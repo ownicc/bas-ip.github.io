@@ -1,0 +1,120 @@
+@import "mixin";
+
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap&subset=cyrillic-ext);
+
+$dark-grey: #373435;
+$red: #d12023;
+$grey: #5b5b5b;
+$light-grey: #e7e7e7;
+$white: #ffffff;
+
+$h1: 2.625rem;
+$h3: 1.875rem;
+$text-1: 1rem;
+$h2: 2.375rem;
+$h4: 1.5rem;
+$text-2: 0.8125rem;
+$bold: 600;
+
+$margin: 3.125rem;
+$padding: 7.5rem;
+$margin-mobile: 1.25rem;
+$padding-mobile: 3.125rem;
+
+$desktop-size: 120rem;
+$mobile-size: 20rem;
+
+$media768: 48rem;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  font-size: 16px;
+  color: $dark-grey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  /*   min-height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; */
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: $dark-grey;
+}
+
+.nav {
+  height: 100%;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 4rem;
+  text-align: center;
+  border-radius: 6.25rem;
+  border-style: none;
+  background-color: $red;
+  text-decoration: none;
+  color: $white;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 3.125rem;
+  font-family: "Open Sans";
+  font-size: 2.375rem;
+  color: $red;
+}
+
+.white-space {
+  margin: 1.5rem 0;
+}
+
+.lock {
+  overflow: hidden;
+}
+
+@import "header";
+@import "banner";
+@import "catalog";
+@import "news";
+@import "video";
+@import "products";
+@import "footer";
+@import "media";

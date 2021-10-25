@@ -1,0 +1,34 @@
+/* Video Section */
+
+.video-section {
+  padding: 7.5rem 0;
+  background: $dark-grey;
+}
+
+.video-container {
+}
+
+.video {
+  &__title {
+    color: $white;
+  }
+
+  &__text {
+    color: $white;
+  }
+
+  &__prev {
+  }
+
+  &__next {
+  }
+
+  .slider {
+    &__item {
+    }
+  }
+
+  .arrow {
+    color: $white;
+  }
+}
