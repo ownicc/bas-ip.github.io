@@ -71,7 +71,7 @@
 .header__cart {
   margin-right: 1.25rem;
   &::before {
-    content: url(/img/src/cart-icon.svg);
+    content: url(./img/src/cart-icon.svg);
     position: absolute;
     transform: translate(-25px, 1px);
   }
@@ -120,7 +120,7 @@
   background: transparent;
   cursor: pointer;
   &::before {
-    content: url(/img/src/search-icon.svg);
+    content: url(./img/src/search-icon.svg);
   }
 }
 
@@ -151,7 +151,7 @@
   align-items: center;
   position: relative;
   &::before {
-    content: url(/img/src/phone-icon.svg);
+    content: url(./img/src/phone-icon.svg);
     position: relative;
     top: 1px;
     right: 15px;
@@ -185,7 +185,7 @@
   position: relative;
   padding-left: 1.875rem;
   &::before {
-    content: url(/img/src/catalog-logo.svg);
+    content: url(./img/src/catalog-logo.svg);
     position: absolute;
     transform: translate(-30px, 1px);
   }
